@@ -166,8 +166,17 @@ p {
 
 @media screen and (max-width: 800px) and (min-width: 200px) {
   #up{
-    background:  linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
-	background-size: 400% 400%;
+    background-image: linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
+    background-image: -moz-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
+    background-image: -webkit-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
+    background-image: -webkit-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
+    background-image: -o-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
+    background-image: -ms-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
+  
+    filter: blur(80px);
+    animation: down 20s infinite;
+    overflow-x: hidden;
+	background-size: 100% 100%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
   }

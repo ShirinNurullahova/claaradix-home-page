@@ -156,6 +156,10 @@ margin-right: 5px;
        #up{
         width: 300px;
         height: 300px;
+        border-radius: 50%;
+        filter: blur(80px);
+        animation: down 20s infinite;
+        overflow-x: hidden;
        }
    
   }

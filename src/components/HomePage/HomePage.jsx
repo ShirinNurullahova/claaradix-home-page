@@ -5,7 +5,7 @@ import logo from '../../images/logo.png'
 const HomePage = () => {
     return (
         <div className='home-page'>
-            <section id='up'></section>
+            <section id='up' style={{borderRadius:'50%'}}></section>
 
 
 

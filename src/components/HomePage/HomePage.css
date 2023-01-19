@@ -1,0 +1,164 @@
+body {
+   margin: 0;
+   padding: 0;
+   min-height: 100vh;
+   /* background-image:linear-gradient(80deg, #171B22 , #335113  ) ; */
+    background-color: #171B22;
+   overflow: hidden;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+#up{
+    position: absolute;
+    z-index: 1;
+    height: 600px;;
+    width: 600px;
+    border-radius: 50%;
+   background-image:linear-gradient(80deg,  #335113 , #171B22 ) ;
+    filter: blur(80px);
+    animation: down 20s infinite;
+    overflow-x: hidden;
+}
+ @keyframes down{
+    0% , 100%{
+        bottom : 0px;
+        left: 100px;
+           }
+    70% {
+        bottom: 300px;
+        left: 700px;
+     
+    }
+    
+ }
+ .home-page{
+    height: 100vh;
+    overflow-x: hidden;
+     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .home-page-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+  margin-top: 50px;
+ }
+ .imglogo{
+    width: 100%;
+ }
+ .imglogo img{
+    width: 286px;
+    height: 186px;
+ }
+ .news h1{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 160px;
+    margin-top: 40px;
+    color: #FFFFFF;
+ }
+ h1 {
+    display: block;
+    /* font-size: em; */
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.news p{
+    font-family: 'Lexend';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 40px;
+color: #FFFFFF;
+margin-top: 10px;
+margin-bottom: 200px;
+}
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.home-page-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+.footer-left p , .footer-right p{
+    font-family: 'Lexend';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+margin-right: 10px;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 40%; */
+}
+.footer-right{
+    display: flex;
+    align-items: center;
+}
+.dot , .dots , .white{
+    width: 4px;
+height: 4px;
+border-radius: 50%;
+background: #FFFFFF;
+margin-right: 5px;
+}
+
+/* Responsives Mobile started */
+@media screen and (max-width: 2000px) and (min-width: 800px) { 
+    .dots{
+        display: none;
+    }
+  }
+@media screen and (max-width: 800px) and (min-width: 200px) { 
+  .news h1{
+    font-size: 52px;
+  }
+  .news p{
+    font-size: 14px;
+  }
+  .news{
+    margin-bottom: 40%;
+  }
+  .home-page-footer{
+    flex-direction: column;
+  }
+  .dots{
+    display: block;
+  }
+  .dot{
+    display: none;
+  }
+  .footer-left{
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  .footer-right{
+    justify-content: center;
+  }
+  .footer-left span{
+    display: none;
+  }
+}

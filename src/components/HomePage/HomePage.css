@@ -168,7 +168,7 @@ p {
     margin-top: 70%;
   }
 
-  /* @keyframes down {
+  @keyframes down {
     0%,
     100% {
       bottom: 0px;
@@ -180,18 +180,20 @@ p {
       left: 300px;
 
     }
-  } */
+  }
   #up {
     width: 200px;
     height: 200px;
-    border-radius: 50% !important;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    
     filter: blur(80px);
-    animation: none;
-    /* animation: down 20s infinite; */
+    animation: down 20s infinite;
     overflow-x: hidden;
-    -webkit-border-radius: 50% !important;
-    -moz-border-radius: 50% !important;
-    -khtml-border-radius: 50% !important;
+    -webkit-border-radius: 500px !important;
+    -moz-border-radius: 500px !important;
+    -khtml-border-radius: 500px !important;
   }
 
 }

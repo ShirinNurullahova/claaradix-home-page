@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div className='home-page'>
             <section id='up'></section>
-            <section id='down'></section>
+          
             
 
             <div className='home-page-text'>

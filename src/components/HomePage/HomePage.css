@@ -224,6 +224,9 @@ p {
 }
 
 @media screen and (max-width: 800px) and (min-width: 200px) {
+  .home-page-text {
+    margin-top: 70%;
+  }
   .news h1 {
     font-size: 52px;
   }

@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div className='home-page'>
             <section id='up'></section>
-
+            <section id='down'></section>
             
 
             <div className='home-page-text'>
@@ -18,9 +18,7 @@ const HomePage = () => {
                     <p>Çox yaxında yeniliklərlə sizin qarşınızda olacağıq!</p>
 
                 </div>
-                <div className='yoxlamaq'>
-
-</div>
+               
                 <div className='home-page-footer'>
                     <div className='footer-left'>
                         <p><span>Bizimlə əlaqə:</span>  +994 50 443 19 29 </p>

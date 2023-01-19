@@ -168,6 +168,9 @@ p {
   #up{
     display: none;
   }
+  .home-page-text{
+    z-index: 999;
+  }
   body{
     background-image: linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
     background-image: -moz-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
@@ -175,7 +178,8 @@ p {
     background-image: -webkit-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
     background-image: -o-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
     background-image: -ms-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
-  
+     position: relative;
+     z-index: 1;
     filter: blur(80px);
     animation: down 20s infinite;
     overflow-x: hidden;

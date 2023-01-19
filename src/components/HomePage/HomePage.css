@@ -7,7 +7,6 @@ body {
    overflow: hidden;
  
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 #up{
@@ -18,9 +17,8 @@ body {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    border-radius: 50%;
     -khtml-border-radius: 50%;
-    /* behavior: url(css/PIE.htc); */
+   
     background-image:linear-gradient(80deg,  rgba(51, 81, 19, 1) ,rgba(23, 27, 34, 1)) ;
     background-image:-moz-linear-gradient(80deg,  rgba(51, 81, 19, 1) , rgba(23, 27, 34, 1)) ;
     background-image: -webkit-gradient(80deg,  rgba(51, 81, 19, 1), rgba(23, 27, 34, 1) ) ;
@@ -165,6 +163,9 @@ margin-right: 5px;
         filter: blur(80px);
         animation: down 20s infinite;
         overflow-x: hidden;
+        -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
        }
    
   }

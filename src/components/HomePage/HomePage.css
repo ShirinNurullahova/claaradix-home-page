@@ -197,7 +197,7 @@ p {
     background-image: -o-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
     background-image: -ms-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
   
-    filter: blur(80px);
+    /* filter: blur(80px); */
     animation: up 20s infinite;
     overflow-x: hidden;
   }

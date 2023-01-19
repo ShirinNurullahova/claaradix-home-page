@@ -164,6 +164,7 @@ margin-right: 5px;
         filter: blur(80px);
         animation: down 20s infinite;
         overflow-x: hidden;
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(51, 81, 19, 1)', endColorstr='rgba(23, 27, 34, 1)',GradientType=0 );
        }
    
   }

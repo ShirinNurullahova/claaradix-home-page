@@ -16,10 +16,10 @@ body {
   height: 600px;
   ;
   width: 600px;
-  border-radius: 500px;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  -khtml-border-radius: 500px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -khtml-border-radius: 50%;
 
   background-image: linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
   background-image: -moz-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
@@ -182,22 +182,19 @@ p {
     }
   }
   #up {
-    width: 200px;
-    height: 200px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
-    border-radius: 500px;
-    
-    filter: blur(80px);
-    animation: down 20s infinite;
-    overflow-x: hidden;
-    -webkit-border-radius: 500px !important;
-    -moz-border-radius: 500px !important;
-    -khtml-border-radius: 500px !important;
+    animation: none;
   }
-
+  .yoxlamaq{
+    display: block;
+  }
 }
-
+.yoxlamaq{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 50%;
+  display:none ;
+}
 @media screen and (max-width: 800px) and (min-width: 200px) {
   .news h1 {
     font-size: 52px;

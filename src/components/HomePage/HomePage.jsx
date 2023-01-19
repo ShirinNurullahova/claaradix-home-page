@@ -7,7 +7,9 @@ const HomePage = () => {
         <div className='home-page'>
             <section id='up'></section>
 
+             <div className='yoxlamaq'>
 
+             </div>
 
             <div className='home-page-text'>
                 <div className='imglogo'>

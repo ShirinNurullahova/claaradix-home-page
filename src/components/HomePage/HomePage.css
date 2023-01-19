@@ -166,6 +166,9 @@ p {
 
 @media screen and (max-width: 800px) and (min-width: 200px) {
   #up{
+    display: none;
+  }
+  body{
     background-image: linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
     background-image: -moz-linear-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
     background-image: -webkit-gradient(80deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));

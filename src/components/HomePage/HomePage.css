@@ -169,7 +169,7 @@ p {
     display: none;
   }
   .news{
-    margin-bottom: 0;
+    margin-bottom: -20%;
   }
    .home-page{
       background: linear-gradient(-45deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1), rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));

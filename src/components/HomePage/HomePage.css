@@ -16,7 +16,9 @@ body {
     height: 600px;;
     width: 600px;
     border-radius: 50%;
-   background-image:linear-gradient(80deg,  #335113 , #171B22 ) ;
+    background-image:linear-gradient(80deg,  #335113 , #171B22 ) ;
+    background-image:-moz-linear-gradient(80deg,  #335113 , #171B22 ) ;
+    background-image: -webkit-gradient(80deg,  #335113 , #171B22 ) ;
     filter: blur(80px);
     animation: down 20s infinite;
     overflow-x: hidden;
@@ -143,6 +145,9 @@ margin-right: 5px;
       width: 300px;
       border-radius: 50%;
      background-image:linear-gradient(80deg,  #335113 , #171B22 ) ;
+     background-image:-moz-linear-gradient(80deg,  #335113 , #171B22 ) ;
+     background-image: -webkit-gradient(80deg,  #335113 , #171B22 ) ;
+
       filter: blur(80px);
       animation: down1 20s infinite;
       overflow-x: hidden;

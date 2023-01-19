@@ -168,7 +168,7 @@ p {
     margin-top: 70%;
   }
 
-  @keyframes down {
+  /* @keyframes down {
     0%,
     100% {
       bottom: 0px;
@@ -180,13 +180,14 @@ p {
       left: 300px;
 
     }
-  }
+  } */
   #up {
     width: 200px;
     height: 200px;
     border-radius: 50% !important;
     filter: blur(80px);
-    animation: down 20s infinite;
+    animation: none;
+    /* animation: down 20s infinite; */
     overflow-x: hidden;
     -webkit-border-radius: 50% !important;
     -moz-border-radius: 50% !important;

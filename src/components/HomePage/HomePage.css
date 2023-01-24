@@ -235,7 +235,10 @@ p {
   #up{
     display: none;
   }
- 
+  .news{
+    margin-bottom: 5%;
+  }
+  
    .home-page{
       background: linear-gradient(-45deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1), rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
       background-size: 400% 400%;

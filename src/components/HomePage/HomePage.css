@@ -99,7 +99,9 @@ h1 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
-
+.news{
+  margin-bottom: 10%;
+}
 .news p {
   font-family: 'Lexend';
   font-style: normal;
@@ -107,8 +109,7 @@ h1 {
   font-size: 32px;
   line-height: 40px;
   color: #FFFFFF;
-  margin-top: 10px;
-  margin-bottom: 150px;
+  
 }
 
 p {
@@ -173,13 +174,6 @@ p {
   #up{
     display: none;
   }
-  .news{
-    margin-bottom: -20%;
-  }
-  .news p{
-    margin-top: -5%;
-    margin-bottom: 200px;
-  }
    .home-page{
       background: linear-gradient(-45deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1), rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
       background-size: 400% 400%;
@@ -241,13 +235,7 @@ p {
   #up{
     display: none;
   }
-  .news{
-    margin-bottom: -10%;
-  }
-  .news p{
-    margin-top: -5%;
-    margin-bottom: 200px;
-  }
+ 
    .home-page{
       background: linear-gradient(-45deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1), rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
       background-size: 400% 400%;

@@ -241,7 +241,7 @@ p {
   }
   .news p{
     margin-top: -5%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
    .home-page{
       background: linear-gradient(-45deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1), rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
@@ -264,7 +264,7 @@ p {
    
   
   .home-page-text {
-    margin-top: 20%;
+    margin-top: 0%;
   }
   .news h1 {
     font-size: 52px;

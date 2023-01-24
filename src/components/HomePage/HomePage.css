@@ -122,9 +122,9 @@ p {
 .home-page-footer {
   display: flex;
   justify-content: space-between;
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
-
+  width: 100%;
 }
 
 .footer-left p,
@@ -178,6 +178,7 @@ p {
   }
   .news p{
     margin-top: -5%;
+    margin-bottom: 200px;
   }
    .home-page{
       background: linear-gradient(-45deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1), rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
@@ -200,7 +201,7 @@ p {
    
   
   .home-page-text {
-    margin-top: 50%;
+    margin-top: 0;
   }
   .news h1 {
     font-size: 52px;
@@ -245,7 +246,7 @@ p {
   }
   .news p{
     margin-top: -5%;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
   }
    .home-page{
       background: linear-gradient(-45deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1), rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));

@@ -5,7 +5,9 @@ body {
   /* background-image:linear-gradient(80deg, #171B22 , #335113  ) ; */
   background-color: #171B22;
   overflow: hidden;
- 
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 } 
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
@@ -104,7 +106,7 @@ h1 {
   line-height: 40px;
   color: #FFFFFF;
   margin-top: 10px;
-  margin-bottom: 170px;
+  margin-bottom: 150px;
 }
 
 p {

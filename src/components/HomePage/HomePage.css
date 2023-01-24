@@ -5,8 +5,8 @@ body {
   /* background-image:linear-gradient(80deg, #171B22 , #335113  ) ; */
   background-color: #171B22;
   overflow: hidden;
-
-}
+ 
+} 
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
@@ -104,7 +104,7 @@ h1 {
   line-height: 40px;
   color: #FFFFFF;
   margin-top: 10px;
-  margin-bottom: 200px;
+  margin-bottom: 170px;
 }
 
 p {
@@ -241,7 +241,7 @@ p {
   }
   .news p{
     margin-top: -5%;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
    .home-page{
       background: linear-gradient(-45deg, rgba(51, 81, 19, 1), rgba(23, 27, 34, 1), rgba(51, 81, 19, 1), rgba(23, 27, 34, 1));
@@ -264,7 +264,7 @@ p {
    
   
   .home-page-text {
-    margin-top: 0%;
+    margin-top: -10%;
   }
   .news h1 {
     font-size: 52px;

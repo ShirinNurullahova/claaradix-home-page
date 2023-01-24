@@ -5,10 +5,7 @@ import logo from '../../images/logo.png'
 const HomePage = () => {
     return (
         <div className='home-page'>
-            <section id='up'></section>
-          
-            
-
+            <div id='up'></div>
             <div className='home-page-text'>
                 <div className='imglogo'>
                     <img src={logo} />
@@ -18,7 +15,6 @@ const HomePage = () => {
                     <p>Çox yaxında yeniliklərlə sizin qarşınızda olacağıq!</p>
 
                 </div>
-               
                 <div className='home-page-footer'>
                     <div className='footer-left'>
                         <p><span>Bizimlə əlaqə:</span>  +994 50 443 19 29 </p>

@@ -171,9 +171,6 @@ p {
 
 
 @media screen and (max-width: 800px) and (min-width: 500px) {
-  .imglogo{
-    margin-top: -30%;
-  }
   #up{
     display: none;
   }
@@ -198,7 +195,7 @@ p {
    
   
   .home-page-text {
-    margin-top: 0;
+    margin-top: -30%;
   }
   .news h1 {
     font-size: 52px;
@@ -234,9 +231,7 @@ p {
     display: none;
   }
 }
-@media screen and (max-width: 500px) and (min-width: 300px) { .imglogo{
-  margin-top: -30%;
-}
+@media screen and (max-width: 500px) and (min-width: 300px) {
   #up{
     display: none;
   }
@@ -264,9 +259,10 @@ p {
     }
    
   
-  .home-page-text {
-    margin-top: -10%;
-  }
+  
+    .home-page-text {
+      margin-top: -30%;
+    }
   .news h1 {
     font-size: 52px;
     margin-top: 0;

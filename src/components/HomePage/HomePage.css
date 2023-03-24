@@ -8,7 +8,10 @@ body {
   align-items: center;
   justify-content: center;
 } 
-
+ a{
+  cursor: pointer;
+  text-decoration: none
+ }
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 #up {
